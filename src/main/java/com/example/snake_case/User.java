@@ -1,9 +1,5 @@
 package com.example.snake_case;
 
-import lombok.Data;
+public record User(String firstName, String lastName, Organization organization) {
 
-@Data
-public class User {
-    private String firstName;
-    private String lastName;
 }
